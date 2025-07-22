@@ -2,7 +2,7 @@
 This code is to find out the prime numbers between a given range.
 
 
-    def print_prime_nembers(x, y):
+    def print_prime_numbers(x, y):
 
         c = []
     
@@ -23,4 +23,4 @@ This code is to find out the prime numbers between a given range.
             print(char[-1])
         
     x, y = map(int, input(f"Enter a range of digit seperated by space to print prime numbers : ").split())
-    print_prime_nembers(x, y)
+    print_prime_numbers(x, y)
